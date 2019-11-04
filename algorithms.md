@@ -5,6 +5,8 @@ e.g. a string and searchin through characters. Transform something into a tree a
 
 e.g. Start at a starting point, go to the end, go back to the beginning, go through another tree. <br />
 
+<code>https://www.youtube.com/watch?v=iaBEKo5sM7w</code>
+
 ## Breadth First Search
 BFS vs DFS: DFS adds nodes to a stack and takes last child off the top and visits its children, etc. BFS does the opposite. BFS uses a queue that adds child nodes, grab first one added, add the first one added and add all its children to the end of the queue.
 
