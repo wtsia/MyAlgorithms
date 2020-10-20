@@ -1,4 +1,4 @@
-## Depth First Search
+eexi## Depth First Search
 Typically a graph problem. A tree structure, going through the trees. <br />
 
 e.g. a string and searchin through characters. Transform something into a tree and search. <br />
@@ -55,3 +55,13 @@ Very fundamental. Say you have a sorted list of integers and want to find an int
 Time space complexity of binary search is O(log(n)). This is because you eliminate half, then eliminate another half, etc. Picking one number and setting it as a pivot and dividing by half. <br />
 
 e.g. Find the crash version of an app. Using binary search to check each version of an app to find when it went from working to crashing <br /> 
+
+
+## Personal Problems
+
+Given a set of relations, such that for entities A,B,C,D,... in some set, A>B, B>C, or D>A, created an ordered list that ranks each entity where the rank descends from the top. Let ranks in the same bracket with unknown relations be placed in the same rank. i.e. Given relations MAT > SAT, CAT > SAT, RAT > MAT, renders the output:
+
+1. RAT
+2. MAT, CAT
+3. SAT
+
